@@ -10,7 +10,6 @@ export default function NewsSlug() {
 
   return (
     <div>
-      <Header/>
       <div className="mx-auto container px-3 py-6">
       <img
         src={searchParams.get("urlToImage") || ""}
@@ -29,7 +28,6 @@ export default function NewsSlug() {
         Show More
       </Link>
     </div>
-    <Footer/>
     </div>
   );
 }
