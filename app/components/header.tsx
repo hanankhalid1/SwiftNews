@@ -13,6 +13,10 @@ const Header = () => {
                 global events. Trust our reliable reporting to keep you ahead of
                 the curve.
               </p>
+            </div>
+            <div className="text-center md:text-right">
+              {" "}
+              {/* Adjusted this div */}
               <a
                 href="#"
                 className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded"
